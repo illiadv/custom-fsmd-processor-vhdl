@@ -6,6 +6,6 @@ This repository contains an RTL implementation of a custom digital processing mo
 This design was created as a course project for one of my university courses.
 
 ## Architecture
-The architecture strictly separates data processing and control logic into separate modules:
+The architecture strictly separates data processing and control logic into different modules:
 - Datapath (Execution Unit): Contains the registers, ALU and multiplexing logic. The datapath architecture was manually optimized by finding equivalence classes of micro-operations and sharing hardware resources between them.
 - Control Unit: Implemented as a Microprogrammed ROM-based FSM with explicit next-state addressing.
