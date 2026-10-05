@@ -14,7 +14,9 @@ The architecture strictly separates data processing and control logic into diffe
 Manually drawn RTL schematics can be seen below.
 
 Datapath:
+
 ![datapath](docs/datapath.png)
 
 Control unit:
-![control-unit](cu.png)
+
+![control-unit](docs/cu.png)
